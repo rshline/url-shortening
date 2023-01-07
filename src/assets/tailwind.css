@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@layer components {
+    .navbar-text {
+        @apply cursor-pointer text-sm text-neutral-gray-violet font-bold hover:text-neutral-dark-violet;
+    }
+
+    .btn-round {
+        @apply text-white px-6 py-2 font-bold bg-primary-cyan hover:bg-primary-cyan/75 rounded-full whitespace-nowrap;
+    }
+
+    .btn-sqr {
+        @apply text-white px-6 py-2 font-bold bg-primary-cyan hover:bg-primary-cyan/75 rounded-md whitespace-nowrap;
+    }
+    .hl-card {
+        @apply relative bg-white px-6 pt-10 pb-8 rounded-lg space-y-3 text-sm;
+    }
+
+    .hl-title {
+        @apply font-bold text-xl text-neutral-dark-violet;
+    }
+
+    .hl-desc {
+        @apply text-neutral-gray-violet;
+    }
+
+    .hl-img-circle {
+        @apply p-4 absolute -top-6 mx-auto left-0 sm:right-0 lg:-top-7 rounded-full bg-primary-dark-violet w-fit;
+    }
+
+    .hl-image {
+        @apply h-5 lg:h-7 object-center;
+    }
+}
