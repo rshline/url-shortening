@@ -7,7 +7,7 @@
       </div>
 
       <!-- footer -->
-      <div class="flex flex-col lg:flex-row lg:justify-around py-10 sm:space-y-7 bg-neutral-dark-violet">
+      <div class="flex flex-col lg:flex-row lg:justify-around py-10 sm:space-y-7 lg:space-y-0 bg-neutral-dark-violet">
         <!-- logo -->
         <div class="">
           <img src="@/assets/images/logo.svg" class="mx-auto" />

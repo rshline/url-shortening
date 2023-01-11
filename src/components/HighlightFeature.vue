@@ -15,7 +15,7 @@
                 <p class="hl-desc">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
             </div>
             <div class="w-2 h-20 lg:w-28 lg:h-2 bg-primary-cyan border-primary-cyan border-2 place-self-center"></div>
-            <div class="hl-card lg:mt-16">
+            <div class="hl-card lg:mt-14">
                 <div class="hl-img-circle">
                     <img src="@/assets/images/icon-detailed-records.svg" class="hl-image" />
                 </div>
@@ -23,7 +23,7 @@
                 <p class="hl-desc">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
             </div>
             <div class="w-2 h-20 lg:w-28 lg:h-2 bg-primary-cyan border-primary-cyan border-2 place-self-center"></div>
-            <div class="hl-card lg:mt-32">
+            <div class="hl-card lg:mt-28">
                 <div class="hl-img-circle">
                     <img src="@/assets/images/icon-fully-customizable.svg" class="hl-image" />
                 </div>

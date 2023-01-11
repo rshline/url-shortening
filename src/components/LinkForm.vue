@@ -37,7 +37,6 @@ export default {
             .then(response => {
                 this.originalLink = response.data.result.original_link
                 this.shortLink = response.data.result.short_link
-                console.log(response.data)
             })
             .catch (e => {
                 console.log(e)

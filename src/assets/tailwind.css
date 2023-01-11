@@ -6,13 +6,16 @@
 
 @layer components {
     .navbar-text {
-        @apply cursor-pointer text-sm text-neutral-gray-violet font-bold hover:text-neutral-dark-violet;
+        @apply cursor-pointer text-sm text-neutral-gray-violet font-bold hover:text-neutral-dark-violet hover:text-primary-cyan;
     }
 
     .btn-round {
         @apply text-white px-6 py-2 font-bold bg-primary-cyan hover:bg-primary-cyan/75 rounded-full whitespace-nowrap;
     }
 
+    .btn-copy {
+        @apply text-white px-6 py-2 font-bold bg-primary-dark-violet hover:bg-primary-dark-violet/75 rounded-md whitespace-nowrap;
+    }
     .btn-sqr {
         @apply text-white px-6 py-2 font-bold bg-primary-cyan hover:bg-primary-cyan/75 rounded-md whitespace-nowrap;
     }
